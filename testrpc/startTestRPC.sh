@@ -11,5 +11,3 @@ testrpc --gasLimit "0x53EC60" \
         --account="${account3}, ${ether}" \
         --account="${account4}, ${ether}" \
         --account="${account5}, ${ether}" \
-
-      Scooter13     
