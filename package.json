@@ -4,7 +4,8 @@
   "description": "Restful API interface for an EVM based exchange protocol",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "babel-node ./deploy.js --presets es2015,stage-0"
   },
   "keywords": [
     "Solidity",
@@ -17,6 +18,12 @@
   "author": "Sean Avery Pollock",
   "license": "ISC",
   "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
     "ethereumjs-testrpc": "^3.0.3"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "web3": "^0.18.2"
   }
 }
